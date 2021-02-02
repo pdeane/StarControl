@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d1395c099b94785b366eff18810440, type: 3}
+  m_Name: Earthling Cruiser
+  m_EditorClassIdentifier: 
+  abilityScriptableObjects:
+  - {fileID: 11400000, guid: d79d1c2b9aa284ecaa7385ca5d43b745, type: 2}
+  - {fileID: 11400000, guid: 2184294e4b40c4d388c409b4127aa6c1, type: 2}
+  acceleration: 500
+  crew: 18
+  energy: 18
+  energyRegeneration: 3.3
+  maximumVelocity: 20
+  prefabGameObject: {fileID: 2907511563784904834, guid: bfb8aba74f7434b82ae3ec55ab15d695, type: 3}
+  rotateSpeed: 100

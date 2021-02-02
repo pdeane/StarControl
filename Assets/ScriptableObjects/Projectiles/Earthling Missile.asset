@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d253844214c844e06b3a9f42a08cee3d, type: 3}
+  m_Name: Earthling Missile
+  m_EditorClassIdentifier: 
+  damage: 4
+  launchPosition: 1
+  maxDistance: 0
+  prefabParticleSystem: {fileID: 7876743274692729880, guid: 5082f294b3fb54c67a7424435978b12b, type: 3}
+  prefabGameObject: {fileID: 4023946084602393825, guid: e052c123d4bb144a0abe7ec7a52d9deb, type: 3}
+  range: 0
+  rotateSpeed: 2
+  timeToLive: 5
+  type: 1
+  velocity: 50
