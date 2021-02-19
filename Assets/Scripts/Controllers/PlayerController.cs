@@ -18,6 +18,8 @@ public abstract class PlayerController : MonoBehaviour
     public virtual void LoadPlayer(ShipScriptableObject shipScriptableObject)
     {
         GameObject shipGameObject = Instantiate(shipScriptableObject.prefabGameObject, transform);
+        Rigidbody shipRigidBody = shipGameObject.GetComponent<Rigidbody>();
+        EventBroker<Rigidbody>.Trigger(EventWithArgs.RigidBodyAdded, shipRigidBody);
         AudioSource = GetComponent<AudioSource>();
         ShipManager = shipGameObject.GetComponent<ShipManager>();
         ShipManager.CreateShip(shipScriptableObject);

@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Player2Controller player2Controller;
     [SerializeField] private ShipScriptableObject[] shipScriptableObjects;
 
-    private void Awake()
+    private void Start()
     {
         player1Controller.LoadPlayer(shipScriptableObjects[0]);
         player2Controller.LoadPlayer(shipScriptableObjects[0]);
